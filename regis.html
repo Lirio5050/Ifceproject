@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="Regis.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    </head>
+
+    <body>
+        <section class="area-registro">
+            <div class="register">
+                <div><img src="tech2.jpeg">
+
+                </div>
+
+                <form>
+                    <input type="text" name="nome" placeholder="Nome Completo" autofocus>
+                    <input type="email" name="email" placeholder="Email institucional">
+                    <select name="Instituto Federal:">
+                        <option value="ifce">Instituto Federal do Ceará</option>
+                        <option value="ifba">Instituto Federal da Bahia</option>
+                        <option value="ifma">Instituto Federal do Maranhão</option>
+                        <option value="ifpb">Instituto Federal da Paraíba</option>
+                        <option value="ifpe">Instituto Federal de Pernambuco</option>
+                        <option value="ifpi">Instituto Federal do Piauí</option>
+                        <option value="ifrn">Instituto Federal do Rio Grande do Norte</option>
+                        <option value="ifs">Instituto Federal de Sergipe</option>
+                    </select>
+                    <input type="tel" inputmode="numeric" pattern="\d*" name="matricula" placeholder="N° de Matrícula">
+                    <div>
+                        <input type="password" name="senha" id="password" placeholder="Senha">
+                        <span class="lnr lnr-eye"></span>
+                    </div>
+                    <input type="submit" value="Registrar-se">
+                </form>
+                <p>Já possui uma conta? <a href="_loginscreen.html">Faça login!</a></p>
+            </div>
+        </section>
+        <script src="togglepassword.js"></script>
+    </body>
+</html>
